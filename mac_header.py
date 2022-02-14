@@ -6,9 +6,9 @@ class EtherentHeader:
 		self.protocol = protocol
 		
 	def build(self):
-		source_mac = b"\x08\x00\x27\x80\xab\x30" # Converting  into byte object
+		source_mac = b"\x08\x00\x27\xga\xab\x30" # Converting  into byte object
 
-		dst_mac = b"\x08\x00\x27\x7e\xe3\x3b" # Converting  into byte object
+		dst_mac = b"\x08\x2s\x27\x8e\xe3\x00" # Converting  into byte object
 
 		dst_ip = "10.5.198.64" # This is the destination
 
